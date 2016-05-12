@@ -1,5 +1,7 @@
 CC=gcc
 
+LDFLAGS=-lm
+
 LIB_OBJ = \
     internal/quirc/lib/decode.o \
     internal/quirc/lib/identify.o \
